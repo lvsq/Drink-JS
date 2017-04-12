@@ -1,30 +1,32 @@
 {
-  "name": "Drink-JS",
-  "version": "0.0.3",
-  "author": "Sean McGary <sean.mcgary@gmail.com>",
-  "description": "CSH Drink Server",
-  "contributors": [ 
-    {
-      "name": "Sean McGary",
-      "email": "sean.mcgary@gmail.com"
-    } 
-  ],
+  "name": "drink-js",
+  "version": "1.0.0",
+  "description": "CSH Drink Server Updated",
+  "main": "drink-js.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "colors": "^1.1.2",
+    "express": "^4.15.2",
+    "ldap": "^0.7.1",
+    "mysql": "^2.13.0",
+    "socket.io": "^1.7.3",
+    "socket.io-client": "^1.7.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node ./lib/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ComputerScienceHouse/Drink-JS.git"
+    "url": "git+https://github.com/lvsq/Drink-JS.git"
   },
-  "dependencies" : {
-	"colors": "*",
-	"mongodb": "*",
-	"mongodb-wrapper": "*",
-	"mysql": "*",
-	"express":"*",
-	"socket.io": "*",
-	"LDAP": "*"
+  "author": "Austin Levesque",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lvsq/Drink-JS/issues"
   },
-  "license": "MIT",
-  "engines": {
-    "node": ">=0.8.0"
-  }
+  "homepage": "https://github.com/lvsq/Drink-JS#readme"
 }
-

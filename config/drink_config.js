@@ -48,11 +48,11 @@ exports.config = {
     sunday_ssl: {
         host: '0.0.0.0',
         port: 4243,
-        ssl: {
-            key: fs.readFileSync('/etc/ssl/drink/key.pem'),
-            cert: fs.readFileSync('/etc/ssl/drink/cert.pem'),
-            ca: fs.readFileSync('/etc/ssl/certs/CA-Certificate.crt')
-        }
+        //ssl: {
+            //key: fs.readFileSync('/etc/ssl/drink/key.pem'),
+            //cert: fs.readFileSync('/etc/ssl/drink/cert.pem'),
+            //ca: fs.readFileSync('/etc/ssl/certs/CA-Certificate.crt')
+        //}
     },
     sunday_opcodes: [
         'UPTIME',
