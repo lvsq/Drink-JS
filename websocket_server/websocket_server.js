@@ -29,13 +29,12 @@ io.sockets.on('connection', function(socket){
     var request_callback = null;
 
     var request_num = 0;
-
+    
     // connect to the sunday server
     conn.drink_conn = new net.Socket();
-    conn.drink_conn.connect(4242, 'austindrinktest.csh.rit.edu', function(){
-
-			
-		});
+    conn.drink_conn.connect(4242, 'drink.csh.rit.edu', function(){
+        
+    });
 
     //conn.drink_conn = tls.connect(4243, 'drink.csh.rit.edu', ssl, function(){
     //
