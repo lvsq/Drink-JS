@@ -5,7 +5,7 @@ var fs = require('fs');
  */
 exports.config = {
     machine_server: {
-        host: '0.0.0.0',
+        host: '129.21.49.9',
         port: 4343
     },
     tini_ips: {
