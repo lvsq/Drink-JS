@@ -50,11 +50,11 @@ exports.config = {
         }
     },
     sunday: {
-        host: '0.0.0.0',
+        host: '129.21.49.9',
         port: 4242
     },
     sunday_ssl: {
-        host: '0.0.0.0',
+        host: '129.21.49.9',
         port: 4243,
         //ssl: {
             //key: fs.readFileSync('/etc/ssl/drink/key.pem'),
