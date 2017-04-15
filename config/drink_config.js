@@ -42,8 +42,8 @@ exports.config = {
             has_sensor: false
         },
         adt: {
-          machine_id: 'adt'
-          long_name: 'Austin Drink Test'
+          machine_id: 'adt',
+          long_name: 'Austin Drink Test',
           connected: false,
           socket: null,
           has_sensor: false
