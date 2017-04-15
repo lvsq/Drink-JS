@@ -16,7 +16,8 @@ exports.config = {
     machine_ip_mapping: {
         '129.21.49.106': 'd',
         '129.21.49.105': 'ld',
-        '129.21.49.107': 's'
+        '129.21.49.107': 's',
+        '129.21.49.50': 'adt'
     },
     machines: {
         ld: {
@@ -39,6 +40,13 @@ exports.config = {
             connected: false,
             socket: null,
             has_sensor: false
+        },
+        adt: {
+          machine_id: 'adt'
+          long_name: 'Austin Drink Test'
+          connected: false,
+          socket: null,
+          has_sensor: false
         }
     },
     sunday: {
@@ -72,7 +80,8 @@ exports.config = {
     machine_codes: {
         "ld": "Little Drink",
         "d": "Big Drink",
-        "s": "Snack"
+        "s": "Snack",
+        "adt":"Austin Drink Test"
     },
     logging: {
         stdout: true,
@@ -85,4 +94,3 @@ exports.config = {
         }
     }
 }
-
