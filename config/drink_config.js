@@ -9,30 +9,31 @@ exports.config = {
         port: 4343
     },
     tini_ips: {
-        /* //Testing
+        ///* //Testing
         '129.21.50.36': 's',
         '129.21.49.50': 'ld', //currently masquerading my Client IP as  little drink
         '129.21.120.59': 'd' //currently masquerading my IP as drink
-        */
-         //testing 2
+        //*/
+        /* //testing 2
         '129.21.50.36': 's',
         '129.21.49.185': 'ld',
         '129.21.50.18': 'd',
         '129.21.49.50': 'adt'
-
+        */
     },
     machine_ip_mapping: {
-      /*testing
+      ///*testing
         '129.21.120.59': 'd', //currently masquerading my IP as drink
         '129.21.49.50': 'ld', //currently masquerading my Client IP as  little drink
         '129.21.49.107': 's',
         '129.21.49.50': 'adt'
-        */
-        //testing 2
+        //*/
+      /*  //testing 2
         '129.21.49.106': 'd',
         '129.21.49.105': 'ld',
         '129.21.49.107': 's',
         '129.21.49.50':'adt'
+        */
     },
     machines: {
         ld: {
