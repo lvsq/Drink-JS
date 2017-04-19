@@ -11,7 +11,7 @@ exports.config = {
     tini_ips: {
         ///* //Testing
         '129.21.50.36': 's',
-        '129.21.49.50': 'ld', //currently masquerading my Client IP as  little drink
+        '129.21.49.50': 'ld', //currently masquerading my Client IP as little drink
         '129.21.120.59': 'd' //currently masquerading my IP as drink
         //*/
         /* //testing 2
@@ -25,8 +25,7 @@ exports.config = {
       ///*testing
         '129.21.120.59': 'd', //currently masquerading my IP as drink
         '129.21.49.50': 'ld', //currently masquerading my Client IP as  little drink
-        '129.21.49.107': 's',
-        '129.21.49.50': 'adt'
+        '129.21.49.107': 's'
         //*/
       /*  //testing 2
         '129.21.49.106': 'd',
