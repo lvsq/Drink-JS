@@ -10,12 +10,12 @@ exports.config = {
     },
     tini_ips: {
         '129.21.50.36': 's',
-        '129.21.49.50': 'ld',
-        '129.21.120.59': 'd'
+        '129.21.49.50': 'ld', //currently masquerading my Client IP as  little drink
+        '129.21.120.59': 'd' //currently masquerading my IP as drink
     },
     machine_ip_mapping: {
-        '129.21.120.59': 'd',
-        '129.21.49.50': 'ld',
+        '129.21.120.59': 'd', //currently masquerading my IP as drink
+        '129.21.49.50': 'ld', //currently masquerading my Client IP as  little drink
         '129.21.49.107': 's',
         '129.21.49.50': 'adt'
     },
@@ -50,11 +50,11 @@ exports.config = {
         }
     },
     sunday: {
-        host: '129.21.49.9',
+        host: '0.0.0.0',
         port: 4242
     },
     sunday_ssl: {
-        host: '129.21.49.9',
+        host: '0.0.0.0',
         port: 4243,
         //ssl: {
             //key: fs.readFileSync('/etc/ssl/drink/key.pem'),

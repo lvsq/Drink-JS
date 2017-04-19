@@ -6,7 +6,7 @@ var fs = require('fs'),
 
 exports.config = {
     machine_server: {
-        host: '0.0.0.0',
+        host: '0.0.0.0', //maps to all ip's on the box
         port: 4343
     },
     tini_ips: {
@@ -94,4 +94,3 @@ exports.config = {
         }
     }
 }
-
