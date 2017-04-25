@@ -8,7 +8,7 @@ exports.config = {
         host: '0.0.0.0',
         port: 4343
     },
-    tini_ips: {
+    rasPi_ips: {
         /* //Testing
         '129.21.50.36': 's',
         '129.21.49.50': 'ld', //currently masquerading my Client IP as little drink
